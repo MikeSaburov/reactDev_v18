@@ -1,5 +1,7 @@
 import { Profile } from '@/components/profile';
 
+import { getImageUrl } from '@/utils/utils';
+
 export default function Home() {
   return (
     <main className="h-full">
