@@ -1,8 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Дорожная карта
 
-## Getting Started
+## Разработка UI
+- [x] ~~Разработка интерфейса~~
+- [x] ~~Ваш первый компонент~~
+- [x] ~~Импорт и экспорт компонентов~~
+- [x] ~~Пишем разметку с JSX~~
+- [x] ~~JavaScript в JSX с фигурными скобками~~
+- [ ] Передача параметров
+- [ ] Условный рендеринг
+- [ ] Рендеринг списков
+- [ ] Поддержание чистоты компонентов
+- [ ] Понимание своего UI как дерева
 
-First, run the development server:
+## Добавление интерактивности
+- [ ] Добавление интерактивности
+- [ ] Реакция на события
+- [ ] Render и Commit
+- [ ] Состояние как моментальный снимок
+- [ ] Очередь обновлений состояния
+- [ ] Обновление объектов в состоянии
+- [ ] Обновление массивов в состоянии
+
+## Управление состоянием
+- [ ] Управление состоянием
+- [ ] Реагирование на ввод с помощью состояния
+- [ ] Выбор структуры состояния
+- [ ] Совместное использование состояния между компонентами
+- [ ] Сохранение и сброс состояния
+- [ ] Извлечение логики состояний в редуктор
+- [ ] Глубокая передача данных с помощью контекста
+- [ ] Расширение с помощью редуктора и контекста
+
+## Механизмы внешнего доступа
+- [ ] Внешний доступ
+- [ ] Ссылка на значения с помощью Refsстояния
+- [ ] Манипулирование DOM с помощью Refs
+- [ ] Синхронизация с эффектамижду компонентами
+- [ ] Возможно, вам не нужен эффект
+- [ ] Жизненный цикл реактивных эффектов
+- [ ] Отделение событий от эффектов
+- [ ] Удаление зависимостей эффектов
+- [ ] Переиспользование логики с помощью пользовательских хуков
+
+## Начиная
+
+Сначала запустите сервер разработки:
 
 ```bash
 npm run dev
@@ -14,23 +56,4 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Откройте [http://localhost:3000](http://localhost:3000) с помощью браузера, чтобы увидеть результат.
