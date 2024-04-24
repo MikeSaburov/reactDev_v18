@@ -5,7 +5,7 @@ export default function Home() {
     <main className="h-full">
       <Profile
         person={{ name: 'Lin Lanying', imageId: '1bX5QH6' }}
-        size={300}
+        size={180}
       />
     </main>
   );
