@@ -1,3 +1,3 @@
-export const getImageUrl = (person) => {
-  return 'https://i.imgur.com/' + person.imageId + '.jpg';
+export const getImageUrl = (src) => {
+  return 'https://i.imgur.com/' + src + '.jpg';
 };

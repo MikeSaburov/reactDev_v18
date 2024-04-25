@@ -1,15 +1,36 @@
 'use client';
-import Image from 'next/image';
-import { getImageUrl } from '@/utils/utils';
 
-export const Profile = ({ person, size = '150' }) => {
+export const Profile = ({
+  name,
+  imageId,
+  size,
+  profession,
+  awards,
+  discovered,
+}) => {
   return (
-    <Image
-      src={getImageUrl(person)}
-      alt={person.className}
-      width={size}
-      height={size}
-      className="rounded-3xl p-3"
-    />
+    <section className="border border-gray-400 rounded-lg p-2">
+      <h2>{name}</h2>
+      <img
+        className="avatar"
+        src={imageId}
+        alt={name}
+        width={size}
+        height={size}
+      />
+      <ul>
+        <li>
+          <b>Profession: </b>
+          {profession}
+        </li>
+        <li>
+          <b>Awards: {awards.length} </b>({awards.join(', ')})
+        </li>
+        <li>
+          <b>Discovered: </b>
+          {discovered}
+        </li>
+      </ul>
+    </section>
   );
 };
