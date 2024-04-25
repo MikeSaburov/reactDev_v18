@@ -1,5 +1,6 @@
 import { getImageUrl } from '@/utils/utils';
 import { Profile } from '@/components/profile';
+import Child from '@/components/cardChild';
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
         awards={['Miyake Prize for geochemistry', 'Tanaka Prize']}
         discovered="a method for measuring carbon dioxide in seawater"
       />
+
+      <Child />
     </main>
   );
 }
